@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #0404ca;
+    display: flex;
+  }
+  /* nav ul {
+    display: inline;
+  } */
+  nav ul li {
+    display: inline-block;
+    margin: 7px;
+  }
+  nav ul li .item:hover {
+    background-color: rgb(5, 5, 4);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li .logo {
+    margin-right: 120px;
+    font-weight: bold;
+    font-size: large;
+  }
+  nav ul li .login {
+    margin-left: 800px;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  #hero {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgb(9, 33, 121) 35%,
+      rgb(53, 86, 88) 100%
+    );
+    text-align: center;
+    padding: 25px;
+  }
+  .hero-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .hero-text {
+    color: rgb(255, 253, 253);
+    margin-bottom: 30px;
+  }
+  .hero-text h2 {
+    margin-bottom: 0;
+  }
+  #about-me {
+    background-color: beige;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  #project{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .kotak{
+    width: 300px;
+    display: inline-block;
+    padding: 5px;
+    margin: 4px;
+    border: solid black 2px;
+    border-radius: 20px;
+
+  }
+  .box-item{
+    display: inline-block;
+  }
+  .box-item img{
+    height: 60px;
+    width: 150px;
+    border-radius: 7px;
+    border: 2px dotted;
+    /*solid
+    dashed
+    dotted  */
+  }
+  footer{...
+
+  }
+  /* responsive */
+  @media (max-width:767.98px){
+    #about-me {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    nav ul li.logo{
+        margin-right: 7px;
+        font-weight:bold;
+        font-size: 14px
+    }
+    
+    nav ul li.login{
+        margin-right: 7px;
+    }
+    #project{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #client{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
